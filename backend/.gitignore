@@ -1,0 +1,4 @@
+.env
+node_modules
+paclage-lock.json
+.DS_Store
