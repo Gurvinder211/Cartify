@@ -5,7 +5,13 @@
 * {
     font-family: Outfit;
 }
+
+select, input, textarea {
+    border: 1px solid #c2c2c2;
+    outline-color: #313337;
+    border-radius: 4px;
+}
 .active {
     background-color: #ffceab;
-    border-color: #435c7c;
+    border-color: #313337;
 }
