@@ -6,7 +6,7 @@ import bcrypt from "bcrypt";
 
 const createToken = (id) => {
    // Token creation logic here
-   return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '7d' });
+   return jwt.sign({ id }, process.env.JWT_SECRET);
 }
 
 const loginUser = async (req, res) => {
